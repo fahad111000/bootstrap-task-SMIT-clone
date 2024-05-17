@@ -1,0 +1,126 @@
+.dropdown-item:hover {
+    background-color: #8dc63f;
+}
+
+.content .btn {
+    transition: 0.2s;
+    background-color: #fff;
+}
+
+.content .btn:hover {
+    transform: scale(1.1);
+    background-color:#424242;
+    color: #fff;
+}
+
+.main-color .card {
+
+    background-color: rgba(181, 239, 73, 0.282);
+    border: none;
+    transition: 0.2s;
+}
+
+.main-color .card:hover {
+    transform: scale(1.1);
+}
+
+.img-background {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+
+}
+
+.row-3 img,
+.row-3 .content {
+    border-top-left-radius: 15%;
+    border: 1px solid #fff;
+    background-color: #8dc63f;
+}
+
+.other-project-content h5,
+.testimonials-text h4 {
+    color: #0d6db7;
+}
+
+.background {
+    padding: 100px 0 70px;
+    background-color: #0d6db7;
+}
+.what-we .card{
+    transition: 0.2s;
+}
+.what-we .card:hover{
+    transform: scale(1.04);
+}
+
+.box {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+
+.testimonials-text {
+    line-height: 30px;
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    padding: 20px;
+    border: none;
+    background-color: #8dc63f;
+    border-radius: 5%;
+}
+
+.over-lap {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    border: 2px solid #fff transparent;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.icon {
+    position: absolute;
+    top: 32%;
+    left: 37%;
+    cursor: pointer;
+
+}
+
+.color {
+    background-color: #8dc63f;
+}
+
+.background {
+    background-image: url('bg.png');
+    padding: 50px;
+    margin: 50px 0 50px;
+}
+
+footer {
+    background-color: #424242;
+    padding: 100px 0;
+    position: relative;
+    color: #fff;
+}
+
+footer::before {
+    border: 2px solid red;
+    background-image: url('upcoming_background.a669f19ea2aee3c7e10f.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+
+
