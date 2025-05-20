@@ -1,3 +1,4 @@
+
 .dropdown-item:hover {
     background-color: #8dc63f;
 }
@@ -9,7 +10,7 @@
 
 .content .btn:hover {
     transform: scale(1.1);
-    background-color:#424242;
+    background-color: #424242;
     color: #fff;
 }
 
@@ -27,6 +28,7 @@
 .img-background {
     height: 100%;
     width: 100%;
+
     background: rgba(0, 0, 0, .6);
 
 }
@@ -47,10 +49,12 @@
     padding: 100px 0 70px;
     background-color: #0d6db7;
 }
-.what-we .card{
+
+.what-we .card {
     transition: 0.2s;
 }
-.what-we .card:hover{
+
+.what-we .card:hover {
     transform: scale(1.04);
 }
 
@@ -74,20 +78,28 @@
     border-radius: 5%;
 }
 
-.over-lap {
-    position: absolute;
+.image-wrapper {
+    position: relative;
     width: 100%;
-    height: 65%;
-    border: 2px solid #fff transparent;
-    background-color: rgba(0, 0, 0, .4);
+    /* height: 100%; */
 }
 
 .icon {
     position: absolute;
-    top: 32%;
-    left: 37%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     cursor: pointer;
+}
 
+.over-lap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .color {
@@ -108,7 +120,6 @@ footer {
 }
 
 footer::before {
-    border: 2px solid red;
     background-image: url('upcoming_background.a669f19ea2aee3c7e10f.png');
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -121,6 +132,3 @@ footer::before {
     height: 100%;
     opacity: 0.1;
 }
-
-
-

@@ -20,13 +20,12 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top bg-white p-4">
-
-        <!-- Main Div -->
-        <div class="container-fluid justify-content-around">
+        <div class="container-fluid justify-content-between">
 
             <!-- Logo -->
-            <a class="navbar-brand" href="#"><img src="logo_saylaniwelfare.22bf709605809177256c.png" alt=""
-                    height="40"></a>
+            <a class="navbar-brand" href="#">
+                <img src="logo_saylaniwelfare.22bf709605809177256c.png" alt="" height="40">
+            </a>
 
             <!-- Toggle Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -34,86 +33,63 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav fw-semibold">
+                    <li class="nav-item me-3"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">About</a></li>
 
-            <!-- Nav-links -->
-            <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown ">
-
-                <ul class="navbar-nav fw-semibold ">
-                    <li class="nav-item me-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-
-                    <li class="nav-item  dropdown me-3 ">
-                        <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown"
-                            role="" href="#" aria-expanded="false">Service</a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <!-- Services -->
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu">
                             <li><a class="dropdown-item py-3" href="#">Intruduction</a></li>
                             <li><a class="dropdown-item py-3" href="#">Chairman Message</a></li>
                             <li><a class="dropdown-item py-3" href="#">Audit Reports</a></li>
                         </ul>
-
                     </li>
 
-                    <li class="nav-item  dropdown me-3 ">
-                        <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown"
-                            role="" href="#" aria-expanded="false">Media</a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <!-- Media -->
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Media</a>
+                        <ul class="dropdown-menu">
                             <li><a class="dropdown-item py-3" href="#">Videos</a></li>
                             <li><a class="dropdown-item py-3" href="#">Books</a></li>
                             <li><a class="dropdown-item py-3" href="#">News</a></li>
                         </ul>
-
                     </li>
 
+                    <!-- Contact Us -->
                     <li class="nav-item dropdown me-3">
-                        <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown"
-                            role="" href="#" aria-expanded="false">Contact Us</a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Contact Us</a>
+                        <ul class="dropdown-menu">
                             <li><a class="dropdown-item py-3" href="#">Contact US</a></li>
                             <li><a class="dropdown-item py-3" href="#">Branches</a></li>
                         </ul>
-
-
                     </li>
 
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="#">Bank Details</a>
-                    </li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Bank Details</a></li>
 
-
+                    <!-- Other Websites -->
                     <li class="nav-item dropdown me-3">
-                        <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown"
-                            role="" href="#">Other Websites</a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item py-3 " href="#">Saylani UK</a></li>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Other Websites</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item py-3" href="#">Saylani UK</a></li>
                             <li><a class="dropdown-item py-3" href="#">Saylani USA</a></li>
                             <li><a class="dropdown-item py-3" href="#">Saylani Canada</a></li>
                             <li><a class="dropdown-item py-3" href="#">Saylani Turkey</a></li>
                         </ul>
-
-
                     </li>
                 </ul>
             </div>
 
-            <!-- Buttons -->
-            <div class="">
-                <button class="btn btn-primary ">DONATE NOW</button>
+            <!-- Buttons (Only show on large screens) -->
+            <div class="d-none d-lg-block">
+                <button class="btn btn-primary">DONATE NOW</button>
                 <button class="btn btn-dark main-color" style="background-color: #8dc63f;">BE A SPONSOR</button>
-
             </div>
         </div>
-
     </nav>
-
 
 
     <section class="content">
@@ -134,7 +110,7 @@
                         support underprivileged families in more than 63 areas of day to day lives.
                     </p>
 
-                    <button class="btn btn-outline-secondary py-3 px-4 mt-2">Explore</button>
+                    <button class="btn btn-outline-secondary py-2 px-5 mt-2">Explore</button>
                 </div>
 
                 <!-- Image Section -->
@@ -174,44 +150,58 @@
             <h1 class="text-center mb-5">What We Are Doing</h1>
 
             <!-- Top Cards -->
-            <div class="row g-4 justify-content-center">
+            <div class="row g-4 justify-content-center text-center">
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="card text-center main-color h-100 py-4">
+                    <div
+                        class="card main-color h-100 py-4 d-flex flex-column align-items-center justify-content-center">
                         <img src="./images/44.png" alt="Welfare" class="img-fluid mb-3" style="max-width:65px;">
                         <p class="mb-0">Welfare</p>
                     </div>
                 </div>
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="card text-center main-color h-100 py-4">
+                    <div
+                        class="card main-color h-100 py-4 d-flex flex-column align-items-center justify-content-center">
                         <img src="./images/41.png" alt="Medical" class="img-fluid mb-3" style="max-width:55px;">
                         <p class="mb-0">Medical</p>
                     </div>
                 </div>
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="card text-center main-color h-100 py-4">
+                    <div
+                        class="card main-color h-100 py-4 d-flex flex-column align-items-center justify-content-center">
                         <img src="./images/39.png" alt="Online Sadqah" class="img-fluid mb-3" style="max-width:40px;">
                         <p class="mb-0">Online Sadqah</p>
                     </div>
                 </div>
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="card text-center main-color h-100 py-4">
+                    <div
+                        class="card main-color h-100 py-4 d-flex flex-column align-items-center justify-content-center">
                         <img src="./images/40.png" alt="Clear Water" class="img-fluid mb-3" style="max-width:65px;">
                         <p class="mb-0">Clear Water</p>
                     </div>
                 </div>
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="card text-center main-color h-100 py-4">
+                    <div
+                        class="card main-color h-100 py-4 d-flex flex-column align-items-center justify-content-center">
                         <img src="./images/48.png" alt="Education" class="img-fluid mb-3" style="max-width:80px;">
                         <p class="mb-0">Education</p>
                     </div>
                 </div>
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="card text-center main-color h-100 py-4">
+                    <div
+                        class="card main-color h-100 py-4 d-flex flex-column align-items-center justify-content-center">
                         <img src="./images/43.png" alt="Food" class="img-fluid mb-3" style="max-width:80px;">
                         <p class="mb-0">Food</p>
                     </div>
                 </div>
+
             </div>
+
 
             <!-- Zakat Cards -->
             <div class="row g-4 my-5">
@@ -397,12 +387,12 @@
     </section>
 
     <!-- Media Updates -->
-    <section class="Media-updates">
+    <!-- <section class="Media-updates">
 
-        <div class="container my-5">
+        <div class="container-fluid my-5">
             <h5 class="text-center">Media Updates</h5>
 
-            <div class="row gy-5 my-5 justify-content-around">
+            <div class="row gy-5 my-5 justify-content-center">
 
                 <div class=" col-sm-12 col-md-6 col-lg-4">
 
@@ -505,61 +495,200 @@
 
 
 
+    </section> -->
+
+
+    <section class="Media-updates">
+        <div class="container my-5">
+            <h5 class="text-center">Media Updates</h5>
+
+            <div class="row gy-5 my-5 justify-content-center">
+
+                <!-- Card 1 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="card position-relative" style="width: 100%; max-width: 20rem;">
+
+                        <!-- Image Wrapper for Relative Positioning -->
+                        <div class="image-wrapper position-relative">
+                            <img src="./images/mandrasa.jpg" class="card-img-top" alt="..." height="250px">
+                            <img class="icon" src="./images/download.png" alt="Download Icon" width="50px"
+                                height="50px">
+                            <div class="over-lap"></div>
+                        </div>
+
+                        <div class="card-body p-0 m-0">
+                            <h5 class="p-2 card-title">
+                                Kuch Khwab Adhure Hai | World Thalassemia Day | Saylani Blood Bank & Thalassemia Center
+                            </h5>
+                            <p class="px-3">#Charity #Organisation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="card position-relative" style="width: 100%; max-width: 20rem;">
+
+                        <!-- Image Wrapper for Relative Positioning -->
+                        <div class="image-wrapper position-relative">
+                            <img src="./images/2.jpg" class="card-img-top" alt="..." height="250px">
+                            <img class="icon" src="./images/download.png" alt="Download Icon" width="50px"
+                                height="50px">
+                            <div class="over-lap"></div>
+                        </div>
+
+                        <div class="card-body p-0 m-0">
+                            <h5 class="p-2 card-title">
+                                Kuch Khwab Adhure Hai | World Thalassemia Day | Saylani Blood Bank & Thalassemia Center
+                            </h5>
+                            <p class="px-3">#Charity #Organisation</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="card position-relative" style="width: 100%; max-width: 20rem;">
+
+                        <!-- Image Wrapper for Relative Positioning -->
+                        <div class="image-wrapper position-relative">
+                            <img src="./images/3.jpg" class="card-img-top" alt="..." height="250px">
+                            <img class="icon" src="./images/download.png" alt="Download Icon" width="50px"
+                                height="50px">
+                            <div class="over-lap"></div>
+                        </div>
+
+                        <div class="card-body p-0 m-0">
+                            <h5 class="p-2 card-title">
+                                Kuch Khwab Adhure Hai | World Thalassemia Day | Saylani Blood Bank & Thalassemia Center
+                            </h5>
+                            <p class="px-3">#Charity #Organisation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="card position-relative" style="width: 100%; max-width: 20rem;">
+
+                        <!-- Image Wrapper for Relative Positioning -->
+                        <div class="image-wrapper position-relative">
+                            <img src="./images/4.jpg" class="card-img-top" alt="..." height="250px">
+                            <img class="icon" src="./images/download.png" alt="Download Icon" width="50px"
+                                height="50px">
+                            <div class="over-lap"></div>
+                        </div>
+
+                        <div class="card-body p-0 m-0">
+                            <h5 class="p-2 card-title">
+                                Kuch Khwab Adhure Hai | World Thalassemia Day | Saylani Blood Bank & Thalassemia Center
+                            </h5>
+                            <p class="px-3">#Charity #Organisation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="card position-relative" style="width: 100%; max-width: 20rem;">
+
+                        <!-- Image Wrapper for Relative Positioning -->
+                        <div class="image-wrapper position-relative">
+                            <img src="./images/6.jpg" class="card-img-top" alt="..." height="250px">
+                            <img class="icon" src="./images/download.png" alt="Download Icon" width="50px"
+                                height="50px">
+                            <div class="over-lap"></div>
+                        </div>
+
+                        <div class="card-body p-0 m-0">
+                            <h5 class="p-2 card-title">
+                                Kuch Khwab Adhure Hai | World Thalassemia Day | Saylani Blood Bank & Thalassemia Center
+                            </h5>
+                            <p class="px-3">#Charity #Organisation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="card position-relative" style="width: 100%; max-width: 20rem;">
+
+                        <!-- Image Wrapper for Relative Positioning -->
+                        <div class="image-wrapper position-relative">
+                            <img src="./images/2.jpg" class="card-img-top" alt="..." height="250px">
+                            <img class="icon" src="./images/download.png" alt="Download Icon" width="50px"
+                                height="50px">
+                            <div class="over-lap"></div>
+                        </div>
+
+                        <div class="card-body p-0 m-0">
+                            <h5 class="p-2 card-title">
+                                Kuch Khwab Adhure Hai | World Thalassemia Day | Saylani Blood Bank & Thalassemia Center
+                            </h5>
+                            <p class="px-3">#Charity #Organisation</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
 
     <!-- News -->
     <section class="news">
+
         <div class="container-fluid">
             <h3 class="text-center">News</h3>
-            <div class="row m-5 justify-content-between">
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card " style="width: 18rem;">
-                        <img src="./images/c1.jpg" class="card-img-top" alt="..." height="200px"
+            <div class="row justify-content-center g-4 mx-3 my-5">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/c1.jpg" class="card-img-top" alt="..." height="200"
                             style="object-fit: cover;">
                         <div class="card-body p-4" style="background-color: #eee;">
-                            <button class="btn btn-primary btn-sm  color border-0">Mon Apr 08 2024</button>
-                            <h5 class="card-title text-dark p-0 my-2 ">Mazik Global Pakistan x Saylani Welfare Trust.
+                            <button class="btn btn-primary btn-sm border-0">Mon Apr 08 2024</button>
+                            <h5 class="card-title text-dark p-0 my-2">Mazik Global Pakistan x Saylani Welfare Trust.
                             </h5>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card " style="width: 18rem;">
-                        <img src="./images/c2.jpg" class="card-img-top" alt="..." height="200px"
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/c2.jpg" class="card-img-top" alt="..." height="200"
                             style="object-fit: cover;">
                         <div class="card-body p-4" style="background-color: #eee;">
-                            <button class="btn btn-primary btn-sm color border-0">Mon Apr 08 2024</button>
-                            <h5 class="card-title text-dark p-0 my-2 ">Mazik Global Pakistan x Saylani Welfare Trust.
+                            <button class="btn btn-primary btn-sm border-0">Mon Apr 08 2024</button>
+                            <h5 class="card-title text-dark p-0 my-2">Mazik Global Pakistan x Saylani Welfare Trust.
                             </h5>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card " style="width: 18rem;">
-                        <img src="./images/c3.jpg" class="card-img-top" alt="..." height="200px"
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/c3.jpg" class="card-img-top" alt="..." height="200"
                             style="object-fit: cover;">
                         <div class="card-body p-4" style="background-color: #eee;">
-                            <button class="btn btn-primary btn-sm color border-0">Mon Apr 08 2024</button>
-                            <h5 class="card-title text-dark p-0 my-2 ">Mazik Global Pakistan x Saylani Welfare Trust.
+                            <button class="btn btn-primary btn-sm border-0">Mon Apr 08 2024</button>
+                            <h5 class="card-title text-dark p-0 my-2">Mazik Global Pakistan x Saylani Welfare Trust.
                             </h5>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card " style="width: 18rem;">
-                        <img src="./images/c1.jpg" class="card-img-top" alt="..." height="200px"
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/c1.jpg" class="card-img-top" alt="..." height="200"
                             style="object-fit: cover;">
                         <div class="card-body p-4" style="background-color: #eee;">
-                            <button class="btn btn-primary btn-sm color border-0">Mon Apr 08 2024</button>
-                            <h5 class="card-title text-dark p-0 my-2 ">Mazik Global Pakistan x Saylani Welfare Trust.
+                            <button class="btn btn-primary btn-sm border-0">Mon Apr 08 2024</button>
+                            <h5 class="card-title text-dark p-0 my-2">Mazik Global Pakistan x Saylani Welfare Trust.
                             </h5>
                         </div>
                     </div>
@@ -567,98 +696,92 @@
 
             </div>
 
-            <div class="row m-5">
-                <div class="background">
-                    <div class="heading">
-                        <h2 class="text-center text-white">Saylani Guide</h2>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-4">
 
-                            <div class="input">
-                                <input class="border-1 form-control form-control-lg" type="text"
-                                    placeholder="Enter E-Mail Address" aria-label=".form-control-lg example"
-                                    style="background-color: #0d6db7;">
-                            </div>
+            <div class="row mx-3 my-5">
+                <div class="guide-section text-white py-5 px-3 rounded-4 w-100">
+                    <h2 class="text-center mb-4 fw-bold">Saylani Guide</h2>
 
-                            <div class="bg-white text-center fw-semibold my-3 py-1 rounded">
-                                <button class="btn  btn mx-auto  d-block ">Subscribe</button>
-                            </div>
+                    <div class="col-12 col-md-8 col-lg-6 mx-auto">
+                        <!-- Email Input -->
+                        <div class="mb-3">
+                            <input class="form-control form-control-lg border-0 shadow-sm" type="email"
+                                placeholder="Enter E-Mail Address" style="background-color: #ffffff; color: #333;" />
+                        </div>
 
+                        <!-- Subscribe Button -->
+                        <div class="text-center">
+                            <button class="btn btn-success btn-lg px-4 shadow">Subscribe</button>
                         </div>
                     </div>
-
                 </div>
             </div>
+
+
         </div>
 
     </section>
 
 
     <!-- Footer  -->
-    <footer class="f">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 my-5 border-top m-5">
+    <footer class="bg-dark text-white">
+        <div class="container py-5 pb-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 border-top py-5">
 
-
-            <div class="col mb-3 ">
-                <a href="/" class="d-flex align-items-center  link-body-emphasis text-decoration-none">
-                    <img src="./images/logo_saylaniwelfare.22bf709605809177256c.png" alt="" width="300px">
-                </a>
-            </div>
-
-            <div class="col mb-3">
-
-            </div>
-
-            <div class="col mb-3">
-                <h5>About</h5>
-                <ul class="nav flex-column ">
-                    <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">Introduction</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Chairman Message</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Annual Report</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Bank Details</a></li>
-                </ul>
-            </div>
-
-            <div class="col mb-3">
-                <h5>Explore</h5>
-                <ul class="nav flex-column ">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Media</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Donations</a></li>
-                </ul>
-            </div>
-
-            <div class="col mb-3">
-                <h5>Contact</h5>
-                <ul class="nav flex-column">
-                    <p>A-25, Bahadurabad Chowrangi Karachi, Pakistan
-                        UAN: 111-729-526 (+0092-213)4130786-90
-                        CELL: 92-311-1729526
-                        USA NO +1(716)941 7792
-                        UK NO (+44)115 970 6256</p>
-                </ul>
-            </div>
-
-        </div>
-        <div class="row">
-            <hr class="mx-5">
-            <div class="col-12">
-                <img class="mx-auto d-block" src="./images/acca-approved-trainee-development-gold-logo-dark_dbuqdu.png"
-                    alt="" width="150px">
-            </div>
-
-            <hr class="mx-5">
-            <div class="row">
-                <div class="col-12">
-                    <p class="text-center">IP address data powered by IPinfo</p>
-
+                <!-- Logo Column -->
+                <div class="col mb-4">
+                    <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                        <img src="./images/logo_saylaniwelfare.22bf709605809177256c.png" alt="" class="img-fluid"
+                            style="max-width: 100%;">
+                    </a>
                 </div>
+
+                <div class="col mb-3"></div> <!-- Empty spacer -->
+
+                <!-- About Column -->
+                <div class="col mb-4">
+                    <h5>About</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Introduction</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Chairman Message</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Annual Report</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Bank Details</a></li>
+                    </ul>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="col mb-4">
+                    <h5>Explore</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Media</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Donations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="col mb-4">
+                    <h5>Contact</h5>
+                    <p style="font-size: 14px;">
+                        A-25, Bahadurabad Chowrangi Karachi, Pakistan<br>
+                        UAN: 111-729-526<br>
+                        (+0092-213) 4130786-90<br>
+                        CELL: 92-311-1729526<br>
+                        USA: +1(716) 941 7792<br>
+                        UK: (+44)115 970 6256
+                    </p>
+                </div>
+            </div>
+
+            <hr class="mt-4">
+
+            <div class="text-center">
+                <img src="./images/acca-approved-trainee-development-gold-logo-dark_dbuqdu.png" alt="" class="img-fluid"
+                    style="max-width: 150px;">
             </div>
 
         </div>
     </footer>
-
-
 
 
     <!-- Bootstrap JS -->
